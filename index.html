@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main">
+        <figure class="main_figure">
+            <img src="./img/Logo-VG_Tpt02.png" class="main_img" alt="Logo">
+        </figure>
+
+        <div class="main_contact">
+            <h2 class="main_title">BIENVENIDOS</h2>
+
+            <form class="main_form" novalidate>
+                <div class="container">
+                    <input type="radio" id="sitemas" name="os" required>
+                    <label for="sitemas">Análisis de sistema</label>
+
+                    <input type="radio" id="agraria" name="os" required>
+                    <label for="agraria">Producción Agraria</label>
+                </div>
+
+                <input type="text" placeholder="Nombre completo" class="main_input" required>
+                <input type="text" placeholder="Apellidos" class="main_input" required>
+                <input type="number" placeholder="Edad" class="main_input" required min="1">
+                <input type="email" placeholder="ejemplo@gmail.com" class="main_input" required>
+                <input type="password" placeholder="Contraseña" class="main_input" required>
+                <input type="password" placeholder="Confirmar contraseña" class="main_input" required>
+                <a href="#">¿Olvidó su contraseña?</a>
+
+                <section>
+                    <input type="checkbox" id="check" required>
+                    <label for="check">Aceptar la política de privacidad y Términos y condiciones.</label>
+                </section>
+                <input type="submit" value="REGISTRARME" class="main_input main_input_send">
+            </form>
+
+            <p class="main_paragranph">¿Ya tienes una cuenta? <a href="#">Inicia sesión</a></p>
+            <div class="line-container">
+                <div class="line"></div>
+                <div class="circle">O</div>
+                <div class="line"></div>
+            </div>
+
+            <h3>Inicia sesión con redes sociales</h3>
+            <article class="main_social">
+                <a href="#" class="main_link">
+                    <img src="./img/facebook.png" class="main_icon" alt="Facebook">
+                </a>
+                <a href="#" class="main_link">
+                    <img src="./img/github.png" class="main_icon" alt="GitHub">
+                </a>
+                <a href="#" class="main_link">
+                    <img src="./img/google.png" class="main_icon" alt="Google">
+                </a>
+            </article>
+        </div>
+    </section>
+</body>
+
+</html>
